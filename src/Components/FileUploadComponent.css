@@ -1,0 +1,37 @@
+#root{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+.page{
+    margin: auto;
+}
+.files{
+    color:#bdbdbd;
+}
+.btndiv{
+        width: auto;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+}
+
+
+
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button{overflow:visible;}
+button{text-transform:none;}
+[type=button],button{-webkit-appearance:button;}
+[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+
+.btn:hover{color:#212529;text-decoration:none;}
+.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.btn:disabled{opacity:.65;}
+.btn-light{color:#212529;background-color:#f8f9fa;border-color:#f8f9fa;}
+.btn-light:hover{color:#212529;background-color:#e2e6ea;border-color:#dae0e5;}
+.btn-light:focus{color:#212529;background-color:#e2e6ea;border-color:#dae0e5;box-shadow:0 0 0 .2rem rgba(216,217,219,.5);}
+.btn-light:disabled{color:#212529;background-color:#f8f9fa;border-color:#f8f9fa;}
